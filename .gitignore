@@ -1,0 +1,72 @@
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bytecode & caches
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# uv specific
+.uv/
+uv.lock
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# =========================
+# Logs & runtime files
+# =========================
+*.log
+*.pid
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDEs & editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Coverage & reports
+# =========================
+.coverage
+coverage.xml
+htmlcov/
+
+# =========================
+# dotenv / secrets
+# =========================
+.env
+.env.*
